@@ -3,13 +3,13 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/communication
+vd plugin install https://github.com/kjeco/communication
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/communication
+vd plugin uninstall https://github.com/kjeco/communication
 ```
 
 ## 引用
