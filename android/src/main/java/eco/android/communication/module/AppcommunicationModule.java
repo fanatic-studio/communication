@@ -1,4 +1,4 @@
-package vd.android.communication.module;
+package eco.android.communication.module;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,11 +10,11 @@ import com.taobao.weex.common.WXModule;
 import java.util.HashMap;
 import java.util.Locale;
 
-import vd.android.communication.module.communication.CommunicationModule;
-import vd.android.communication.module.communication.Constant;
-import vd.android.communication.module.communication.ModuleResultListener;
-import vd.android.communication.module.communication.Util;
-import vd.android.communication.module.permission.PermissionChecker;
+import eco.android.communication.module.communication.CommunicationModule;
+import eco.android.communication.module.communication.Constant;
+import eco.android.communication.module.communication.ModuleResultListener;
+import eco.android.communication.module.communication.Util;
+import eco.android.communication.module.permission.PermissionChecker;
 
 public class AppcommunicationModule extends WXModule {
 
@@ -41,7 +41,7 @@ public class AppcommunicationModule extends WXModule {
             mCallNumber = number;
             mCallCallback = jsCallback;
 
-            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new vd.android.communication.module.permission.ModuleResultListener() {
+            PermissionChecker.requestPermissions((Activity) mWXSDKInstance.getContext(), dialog, new eco.android.communication.module.permission.ModuleResultListener() {
                 @Override
                 public void onResult(Object o) {
                     if ((boolean) o && jsCallback != null) {

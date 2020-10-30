@@ -1,4 +1,4 @@
-package vd.android.communication.module.communication;
+package eco.android.communication.module.communication;
 
 public interface ModuleResultListener {
     void onResult(Object o);

@@ -1,4 +1,4 @@
-package vd.android.communication.module.permission;
+package eco.android.communication.module.permission;
 
 /**
  * Created by Acathur on 17/2/7.

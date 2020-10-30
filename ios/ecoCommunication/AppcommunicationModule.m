@@ -12,7 +12,7 @@
 @end
 
 @implementation AppcommunicationModule
-WX_PlUGIN_EXPORT_MODULE(vdCommunication, AppcommunicationModule)
+WX_PlUGIN_EXPORT_MODULE(ecoCommunication, AppcommunicationModule)
 WX_EXPORT_METHOD(@selector(call::))
 WX_EXPORT_METHOD(@selector(mail:::))
 WX_EXPORT_METHOD(@selector(sms:::))

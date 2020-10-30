@@ -1,6 +1,6 @@
 {
 	"desc": "直接拨打电话、发送短信、发送邮件",
-	"requireFormatName": "vdCommunication",
-	"requireName": "vd/communication",
+	"requireFormatName": "ecoCommunication",
+	"requireName": "eco/communication",
 	"title": "通讯模块"
 }

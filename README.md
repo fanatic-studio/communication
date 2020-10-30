@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/kjeco/communication
+eco plugin install https://github.com/kjeco/communication
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/kjeco/communication
+eco plugin uninstall https://github.com/kjeco/communication
 ```
 
 ## 引用
 
 ```js
-const communication = app.requireModule("vd/communication");
+const communication = app.requireModule("eco/communication");
 ```
 
 ### call(to, callback) 拨打电话

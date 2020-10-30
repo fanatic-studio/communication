@@ -1,4 +1,4 @@
-package vd.android.communication.module.permission;
+package eco.android.communication.module.permission;
 
 import android.app.Activity;
 import android.app.AlertDialog;

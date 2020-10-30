@@ -1,12 +1,12 @@
-package vd.android.communication.entry;
+package eco.android.communication.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.communication.module.AppcommunicationModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.communication.module.AppcommunicationModule;
 
 @ModuleEntry
 public class communicationEntry {
@@ -19,7 +19,7 @@ public class communicationEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerModule("vdCommunication", AppcommunicationModule.class);
+            WXSDKEngine.registerModule("ecoCommunication", AppcommunicationModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

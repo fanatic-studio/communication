@@ -1,4 +1,4 @@
-package vd.android.communication.module.communication;
+package eco.android.communication.module.communication;
 
 import android.content.Context;
 import android.content.Intent;
